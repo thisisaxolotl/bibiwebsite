@@ -1,0 +1,40 @@
+@font-face{
+    font-family: menuFont;
+    src: url(Fonts/CHERI___.TTF);
+}
+@font-face{
+    font-family:vytal;
+    src: url(Fonts/Almost\ Japanese\ Comic.ttf)
+}
+
+/* index.html */
+
+body{background-color: rgb(245, 192, 201)}
+.index{position:absolute; left:43%;top: 35%;font-size: 25px; text-align: center;font-family:menuFont;color:rgb(192, 228, 245)}
+.logo{position:absolute; left:40%; width:20%}
+.square{position:absolute; width:30%; height: 50%; background-color: rgb(144, 242, 255);top:40%; left:35%;z-index:-1}
+
+.catgif1{position:absolute; top:65%;left:75%;width: 20%}
+.heartgif1{position:absolute; width:5%; top:32%; left: 40%}
+.gif1{position:absolute; width:15%; top:40%;left:10%}
+.gif2{position:absolute; left:28%; width:44%;z-index:-1}
+
+.header{position:absolute; left:36%; top:11%; font-size:20px; font-family:menuFont;color:rgb(192, 228, 245)}
+.vytal{position:absolute;font-size:150px; font-family: vytal;left:35%; top:10%; color:rgb(192, 228, 245)}
+
+
+.index a:link{color:rgb(255, 247, 142)}
+.index a:visited{color:rgb(255, 247, 142)}
+.index a:hover{color:rosybrown}
+
+/* food.html */
+.index2{position:absolute; left:48%;top: 83%;font-size: 25px; text-align: center;font-family:menuFont;color:rgb(192, 228, 245)}
+#foodrandom{position:absolute;top:15%;left:38%; width:25%;border-style:dotted;border-color:white}
+.button{position:absolute; top:75%; left:48%}
+.catgif2{position:absolute; top:60%; left:75%; width:20%}
+.gif3{position:absolute; top:55%; left:10%; width:10%}
+.gif4{position:absolute; top:5%; left:30%; width:40%;z-index:-1}
+
+.index2 a:link{color:rgb(255, 247, 142)}
+.index2 a:visited{color:rgb(255, 247, 142)}
+.index2 a:hover{color:rosybrown}
